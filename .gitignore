@@ -1,0 +1,47 @@
+# === Secrets & Environment ===
+.env
+.env.*
+!.env.example
+*.quota.json
+.gemini_quota.json
+
+# === Archives & Backups ===
+*.rar
+*.zip
+*.tar.gz
+*.7z
+
+# === Real Internship Datasets & Raw Analytics ===
+MT Data/
+City/
+Device/
+New vs Established/
+Page name/
+Purchased item/
+Session Channel/
+Session source/
+contextes/
+plan marketing/
+*.csv
+*.xlsx
+*.xls
+sidequest/
+
+# === Generated Reports & Debug Outputs (Exclude or review before removing) ===
+insights_consolides.json
+resultat_city.txt
+prompt_debug.txt
+# If rapport_de_stage.md or marketing plans contain company secrets, uncomment these:
+rapport_de_stage.md
+plan_marketing.md
+plan marketing/
+test.py
+rapport_insights.md
+
+# === Python & IDE Artifacts ===
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.idea/
+*copy.py
